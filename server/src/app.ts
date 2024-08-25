@@ -23,6 +23,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(flash());
 
+app.use(checkJwt);
 app.use('/api', checkJwt, routes);
 
 app.use(notFoundHandler);

@@ -24,5 +24,5 @@ export default withMiddlewareAuthRequired(async function middleware(
 });
 
 export const config = {
-  matcher: ['/private/:path*', '/api/:path*'],
+  matcher: ['/dashboard/:path*', '/api/:path*'],
 };

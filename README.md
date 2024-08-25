@@ -2,7 +2,7 @@
 <!-- # Fullstack Node.js template using Next.js, Express.js, Auth0, Typescript, and Tailwind -->
 
 <p align="center">
-  <img src="./assets/ss6.png" alt="Demo GIF">
+  <img src="assets/images/ss6.png" alt="Demo GIF">
 </p>
 
 This repository provides a full-stack Node.js boilerplate for building web applications using a tech stack that includes Next.js, Express.js, Auth0, TypeScript, and Tailwind CSS.

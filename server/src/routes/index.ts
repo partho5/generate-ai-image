@@ -15,7 +15,7 @@ router.get(
 router.get(
   '/private-route',
   asyncHandler(async (req, res, next) => {
-    res.status(200).send({ message: 'This is a private route' });
+      res.status(200).send({ message: 'This is a dashboard route' });
   })
 );
 
